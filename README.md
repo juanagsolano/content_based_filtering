@@ -9,6 +9,8 @@
 
 ## **1. Configure API**
 
+Go to [The Movie Data DB](https://www.themoviedb.org/) website and create an account
+
 See documentation in website [The Movie Data DB](https://www.themoviedb.org/documentation/api).
 
 ```bash
