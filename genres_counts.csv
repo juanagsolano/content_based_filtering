@@ -1,20 +1,20 @@
 id,Genre,Count
-28,Action,9227
-12,Adventure,4537
-16,Animation,3986
-35,Comedy,20130
-80,Crime,6128
-99,Documentary,6066
-18,Drama,25671
-10751,Family,4817
-14,Fantasy,3099
-36,History,1891
-27,Horror,6711
-10402,Music,4623
-9648,Mystery,3124
-10749,Romance,9062
-878,Science Fiction,3708
-10770,TV Movie,2052
-53,Thriller,9160
-10752,War,1739
-37,Western,1311
+28,Action,10801
+12,Adventure,5244
+16,Animation,4679
+35,Comedy,23745
+80,Crime,7257
+99,Documentary,8066
+18,Drama,31356
+10751,Family,5519
+14,Fantasy,3652
+36,History,2229
+27,Horror,7933
+10402,Music,5778
+9648,Mystery,3651
+10749,Romance,10616
+878,Science Fiction,4247
+10770,TV Movie,2652
+53,Thriller,10641
+10752,War,2113
+37,Western,1746
