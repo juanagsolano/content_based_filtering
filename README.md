@@ -1,6 +1,22 @@
-# content_based_filtering
-Content based filtering using the movie db API.
+# Content Based Filtering Movie Recommendations
+
+## **Content**
+1. Configure API
+2. Extracting data
+3. Preprocessing
+4. Testing model
+5. Extracting cover
+
+## **1. Configure API**
+
+See documentation in website [The Movie Data DB](https://www.themoviedb.org/documentation/api).
+
 ```bash
-asd
 ```
-![Top ten image test](https://github.com/juanagsolano/content_based_filtering/blob/e02823f4331faf29ea4927e9b580c844dcccaa71/images/top10.png)
+
+## **2. Extracting data from website**
+
+## **5. Extracting Top 10 covers**
+Content based filtering using the movie db API.
+
+![Top ten image test](/images/top10.png)
