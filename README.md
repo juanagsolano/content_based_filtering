@@ -20,19 +20,11 @@ The second part is in [ml_model.ipynb](/ml_model.ipynb), here we will show how t
 ### **Create account on website**
 To extract data from website you need an api key. Go to [The Movie Data DB](https://www.themoviedb.org/) website and create an account:
 
-<center>
-
 ![Create account](/images/create_account.png)
-
-</center>
 
 Fill the fields requested:
 
-<center>
-
 ![Fill fields](/images/fill_data.png)
-
-</center>
 
 ### **Get Api key**
 Once you create an account, go to account settings, and select API tab in the left column, then you will see the api key (v3 auth).
@@ -58,11 +50,7 @@ Preprocessing data before put into model is important, some preprocessing is:
 
 ### **DataFrame input data model**
 
-<center>
-
 ![Data frame after preprocessing.](/images/processed_data.JPG)
-
-</center>
 
 This information can be found in [ML Model Jupyter Notebook](/ml_model.ipynb).
 
@@ -72,19 +60,11 @@ Model consist on 10 nearest neighbors using distance metrics (euclidean distance
 
 Model example: "Batman: Gotham Knight"
 
-<center>
-
 ![Batman: Gotham Knight](/images/example_image.jpg)
-
-</center>
 
 List prediction was:
 
-<center>
-
 ![Top 10 list](/images/top10list.jpg)
-
-</center>
 
 This information can also be found in [ML Model Jupyter Notebook](/ml_model.ipynb).
 
@@ -92,10 +72,6 @@ This information can also be found in [ML Model Jupyter Notebook](/ml_model.ipyn
 
 Once we create the model, and getting top 10 movies recommendation we can retrieve the covers of this images and you will get something like this:
 
-<center>
-
 ![Top ten image test](/images/top10.png)
-
-</center>
 
 This information can also be found in [ML Model Jupyter Notebook](/ml_model.ipynb).
