@@ -38,7 +38,7 @@ See documentation in website [The Movie Data DB](https://www.themoviedb.org/docu
 
 ## **2. Extracting data from website**
 
-To see how we retrieve data from website, check [ETL Jupyter Notebook](/etl_process.ipynb) here are the instructions to get data movies step by step.
+To see how we retrieve data from website, check [ETL 1 Jupyter Notebook](/etl_process.ipynb) here are the instructions to get data movies step by step.
 
 1. Retrieve data using requests library
 2. Load data as dictionary using json library
@@ -48,11 +48,14 @@ To see how we retrieve data from website, check [ETL Jupyter Notebook](/etl_proc
 6. Retrieve data and processing iterative for all movies id and append to [dataset_movies.csv](/dataset_movies.csv)
 7. Removing duplicates, fill None dates with 0 for release_date and runtime
 8. Update final [dataset_movies.csv](/dataset_movies.csv)
-9. Create a table of count movies by genre and export to [genres_counts.csv](/genres_counts.csv)
 
 ### **DataFrame (dataset_movies.csv)**
 
 ![DataFrame final processing](/images/dataframe_final.jpg)
+
+### **Adding keywords and collection features [New]**
+
+Some additional data was included to the model in order to improve it. This data consist in top 100 keywords used in movies, using a 100000 samples movies to get it. The procces  be found in [ETL 2 Jupyter Notebook](etl_process_2.ipynb).
 
 ## **3. Preprocessing data**
 
@@ -69,6 +72,7 @@ Preprocessing data before put into model is important, some preprocessing is:
 ![Data frame after preprocessing.](/images/processed_data.JPG)
 
 This information can be found in [ML Model Jupyter Notebook](/ml_model.ipynb).
+
 
 ## **4. Model creation and testing**
 
