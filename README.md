@@ -10,12 +10,10 @@ The second part is in [ml_model.ipynb](/ml_model.ipynb), here we will show how t
 
 ## **Content**
 
-```
 1. Configure API
 2. Extracting data
 3. Preprocessing
 4. Model creation an testing
-```
 
 ## **1. Configure API**
 
